@@ -1,0 +1,22 @@
+Credit user successfully opened account!
+Checking user successfully opened account!
+Checking user successfully opened account!
+Checking user successfully opened account!
+Checking user successfully opened account!
+Credit user successfully opened account!
+Credit user successfully opened account!
+Checking user name changed successfully!
+This user's name have successfully been change.
+Successfully deposited!
+Succesfully withdrew!
+Purchase successful
+Purchase successful
+Transfer successful
+Repay successful!
+This is an active credit account, the account number is: 1000
+This is an active credit account, the account number is: 1001
+This is an active credit account, the account number is: 1002
+This is an active checking account, the account number is: 2000
+This is an active checking account, the account number is: 2001
+This is an active checking account, the account number is: 2002
+This is an active checking account, the account number is: 2003
