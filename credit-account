@@ -1,0 +1,25 @@
+public class creditAccount extends Account{
+  //deff
+  double debt=0;
+  double creditLimit;
+  double availableCredit;
+
+  public creditAccount(String ownerName, int acctNum, double creditLimit){
+    super(ownerName, acctNum);
+    this.acctNum = 1000 +acctNum;
+    this.debt =  debt;
+    this.creditLimit = creditLimit;
+    availableCredit = creditLimit - debt;
+    //debt = 0;
+    
+  }
+
+  public String creditInfo(){
+    return ("This is an active credit account, the account number is: " + acctNum);
+  }
+
+  public String toString(){
+    return ("This is an active credit account, the account number is: " + acctNum);
+  }
+  
+}
