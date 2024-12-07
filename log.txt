@@ -1,0 +1,25 @@
+Paris Dior's account number is: 0 succesfully opened a credit account, with credit limit of: 100.00
+John Doe's account number is: 0 succesfully opened a checking account, with balance of: 200.00
+Regina George's account number is: 1 succesfully opened a checking account, with balance of: 400.00
+John Lucas's account number is: 2 succesfully opened a checking account, with balance of: 75.00
+Paris Dior's account number is: 3 succesfully opened a checking account, with balance of: 500.00
+Duane Reade's account number is: 1 succesfully opened a credit account, with credit limit of: 250.00
+Vivienne Burnette's account number is: 2 succesfully opened a credit account, with credit limit of: 500.00
+There is 4 open checking accounts in the Bank
+There is 3 open credit accounts in the Bank
+This is an active checking account, the account number is: 2000
+This is an active checking account, the account number is: 2001
+This is an active checking account, the account number is: 2002
+This is an active checking account, the account number is: 2003
+This is an active credit account, the account number is: 1000
+This is an active credit account, the account number is: 1001
+This is an active credit account, the account number is: 1002
+User for checking account number: 20001 has successful changed their name to Regina George Thompson
+null
+User for credit account number: 10000 and checking account number: 20003 has successfully changed their name to Paris Melanie
+checking account number: 20000 deposited $100.00 with a new balance of 300.0
+checking account number: 20001 withdrew $50.00 with a new balance of 350.0
+This user has successfully purchased the item for the amount of $50.0
+This user has successfully purchased the item for the amount of $28.0
+checking account:20001 has successfully transfered the amount of 1to checking account 3
+Paris Melanie has successfully paid the amount of $25.0 to credit account number: 0
