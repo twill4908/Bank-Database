@@ -1,0 +1,106 @@
+* if it starts with a star symbol, its just a comment
+***** Operations *****
+    * CCRA means create a credit account
+    * CCHA means create a checking account
+    * CCHN change checking account user's name
+    * CCRN change credit account user's name
+    * CBN means change the user's name, if the user has both a credit account and checking account 
+    * DEPO means to deposit money to user's account
+    * WITHD means to withdrawl money from the user's account
+    * PURC means to puchase an item from user's account
+    * TRANS means to transfer money from one checking account to another checking account
+    * REPAY means to repay pay back a user's credit account debt via the user's checking account balance
+    * CHECKSIZE means get the amount of all checking accounts Bank
+    * CREDSIZE means to get the amount of all credit accounts in Bank
+    * GCRA means get credit account, tell us user's info
+    * GCHA means get checking account, tell us user's info
+    *PRCRA means print credit account for all the credit account user's in bank database
+    *PRCHA means print checking account for all the checking account user's in bank database
+***** Examples *****
+    * CCRA First Last accountNumber amount
+    * CCHA First Last accountNumber amount
+    * CBN accountNum1 accountNum2 First Last First Last
+    * DEPO accountNumber amount
+    * WITHD accountNumber amount
+******************* Data below this line will enteract with the bank database *******************
+CCRA "Paris Dior" 0 100.00
+CCHA "John Doe" 0 200.00
+CCHA "Regina George" 1 400.00
+CCHA "John Lucas" 2 75.00
+CCHA "Paris Dior" 3 500.00
+CCRA "Duane Reade" 1 250.00
+CCRA "Vivienne Burnette" 2 500.00
+CHECKSIZE
+CREDSIZE
+GCHA 0
+GCHA 1
+GCHA 2
+GCHA 3
+GCRA 0
+GCRA 1
+GCRA 2
+CCHN 1 "Regina George Thompson"
+CCRN
+CBN 0 3 "Paris Dior" "Paris Melanie"
+DEPO 0 100.00
+WITHD 1 50.00
+PURC 0 "John Doe" 50.00
+PURC 0 "Paris Melanie" 28.0
+TRANS 1 3 50.00
+REPAY 3 0 "Paris Melanie" 25.00
+
+
+
+* if it starts with a star symbol, its just a comment
+***** Operations *****
+    * CCRA means create a credit account
+    * CCHA means create a checking account
+    * CCHN change checking account user's name
+    * CCRN change credit account user's name
+    * CBN means change the user's name, if the user has both a credit account and checking account 
+    * DEPO means to deposit money to user's account
+    * WITHD means to withdrawl money from the user's account
+    * PURC means to puchase an item from user's account
+    * TRANS means to transfer money from one checking account to another checking account
+    * REPAY means to repay pay back a user's credit account debt via the user's checking account balance
+    * CHECKSIZE means get the amount of all checking accounts Bank
+    * CREDSIZE means to get the amount of all credit accounts in Bank
+    * GCRA means get credit account, tell us user's info
+    * GCHA means get checking account, tell us user's info
+    *PRCRA means print credit account for all the credit account user's in bank database
+    *PRCHA means print checking account for all the checking account user's in bank database
+***** Examples *****
+    * CCRA First Last accountNumber amount
+    * CCHA First Last accountNumber amount
+    * CBN accountNum1 accountNum2 First Last First Last
+    * DEPO accountNumber amount
+    * WITHD accountNumber amount
+******************* Data below this line will enteract with the bank database *******************
+CCRA "Paris Dior" 0 100.00
+CCHA "John Doe" 0 200.00
+CCHA "Regina George" 1 400.00
+CCHA "John Lucas" 2 75.00
+CCHA "Paris Dior" 3 500.00
+CCRA "Duane Reade" 1 250.00
+CCRA "Vivienne Burnette" 2 500.00
+CHECKSIZE
+CREDSIZE
+GCHA 0
+GCHA 1
+GCHA 2
+GCHA 3
+GCRA 0
+GCRA 1
+GCRA 2
+CCHN 1 "Regina George Thompson"
+CCRN
+CBN 0 3 "Paris Dior" "Paris Melanie"
+DEPO 0 100.00
+WITHD 1 50.00
+PURC 0 "John Doe" 50.00
+PURC 0 "Paris Melanie" 28.0
+TRANS 1 3 50.00
+REPAY 3 0 "Paris Melanie" 25.00
+
+
+
